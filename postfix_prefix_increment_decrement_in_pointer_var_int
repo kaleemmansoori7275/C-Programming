@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  int a=5;
+  int *p;
+  p=&a;
+
+   printf("address of a=value of p=%d\n",p);
+   printf("value of p=%d\n",++p);
+   printf("value of p=%d\n",p++);
+   printf("value of p=%d\n",p);
+   printf("value of p=%d\n",--p);
+   printf("value of p=%d\n",p--);
+   printf("value of p=%d\n",p);
+ //since its a int type pointer ,its incremented or decremented by 4.
+    return 0;
+    }

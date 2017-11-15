@@ -8,7 +8,7 @@ int main()
   printf("address of a=value of p=%d\n",p);
   printf("address of b=value of q=%d\n",q);
   printf("value of a=%d %d %d\n",*(&a),*p,a);
-  printf("value of b=%d %d %d \n",*(&b),*q,b);
+  printf("value of b=%f %f %f \n",*(&b),*q,b);
   return 0;
   }
   

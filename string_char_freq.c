@@ -14,10 +14,10 @@ int main()
  for(j=0;j<strlen(a);j++)
  {
  	if(a[j]==i)
- 	b[i-97]++;
+ 	b[i-97]++; //used for ASCII VALUES
  }
   for(i=65;i<91;i++)
- for(j=0;j<strlen(a);j++)
+ for(j=0;j<strlen(a);j++) //strlen gives length of a string
  {
  	if(a[j]==i)
  	c[i-65]++;

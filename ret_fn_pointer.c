@@ -12,7 +12,7 @@ int main()
 int ref(int a,int b,int *s,int *p,int *d)
 {
 	*s=a+b;
-	*p=a*b;
+	*p=a*b; //pointer var(S)
 	*d=a/b;
 	
 }

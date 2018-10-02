@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-void *in,*flo,*cha;
+void *in,*flo,*cha; //asterist represents pointers
 int i=9;
 char j='A',*c;
 float k=2.5;

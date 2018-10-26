@@ -4,7 +4,7 @@ int main()
 {
 	int *p,n,i;
 	scanf("%d",&n);
-	p=(int *)malloc(n*sizeof(int)); /*Dynamic memory Allocation*/
+	p=(int *)malloc(n*sizeof(int)); //Dynamic memory Allocation
 	if(p==NULL)
 	{
 		printf("not enough space");
